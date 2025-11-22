@@ -1,0 +1,43 @@
+/* SectionInfoList.css */
+
+/* 범용 정보 리스트 */
+.section-info-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 8px;
+}
+
+/* 범용 항목 */
+.section-info-item {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    transition: color 0.25s ease, transform 0.25s ease;
+}
+
+/* hover 효과 */
+.section-info-item:hover {
+    color: #6A5ACD;
+    transform: translateX(10px);
+}
+
+/* 항목명 */
+.section-info-name {
+    min-width: 100px;
+    font-weight: bold;
+    color: #6A5ACD;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* 설명 */
+.section-info-desc {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.6;
+
+    /* 중앙 정렬 */
+    text-align: center;
+    width: 80%;
+}

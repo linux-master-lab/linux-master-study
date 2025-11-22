@@ -1,0 +1,19 @@
+/* SectionAccordion.css */
+
+/* 콘텐츠 영역 (닫힘) */
+.section-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+
+    padding-top: 0;
+    padding-bottom: 0;
+
+    transition: max-height 0.55s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.40s ease, padding 0.40s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 콘텐츠 열림 */
+.section-content.open {
+    opacity: 1;
+    padding-top: 16px;
+}
