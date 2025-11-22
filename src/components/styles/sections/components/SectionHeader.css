@@ -1,0 +1,28 @@
+/* SectionHeader.css */
+
+/* 기본 헤더 컨테이너 */
+.section-header {
+    width: 100%;
+    padding: 20px 0 12px;
+    border-bottom: 3px solid #6A5ACD;
+    margin-bottom: 20px;
+}
+
+/* 헤더 제목 */
+.section-header-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 16px;
+    position: relative;
+
+    /* 부드러운 통합 애니메이션 */
+    transition: color 2s ease, transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* hover 효과 */
+.section-header-title:hover {
+    color: #6A5ACD;
+    transition: color 0.25s ease;
+    transform: translateX(10px);
+}

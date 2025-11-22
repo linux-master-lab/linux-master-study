@@ -45,7 +45,7 @@
     width: 100%;
     height: 3px;
     background: #6A5ACD;
-    margin: 15px 0 2px;
+    margin: 8px 0 2px;
     border-radius: 6px;
     opacity: 0;
     animation: fadeIn 2s ease forwards;
