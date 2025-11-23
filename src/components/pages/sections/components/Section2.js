@@ -6,11 +6,14 @@ import "../../../styles/sections/Sections.css";
 export function Section2() {
     return (
         <SectionTemplate title="리눅스 역사">
-            <h2 className="section-subtitle">부제목</h2>
 
-            <SectionBlock title="소제목">
+            {/* 부제목 */}
+            <h2 className="section-subtitle">부제목 (넘어감)</h2>
+
+            {/* 소제목 */}
+            <SectionBlock title="소제목 (넘어감)">
                 <ul className="section-list">
-                    <li>내용1</li>
+                    <li>내용1 (넘어감)</li>
                 </ul>
             </SectionBlock>
         </SectionTemplate>

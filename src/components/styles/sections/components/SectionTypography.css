@@ -1,0 +1,25 @@
+/* SectionTypography.css */
+
+/* 부제목 */
+.section-subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8px 0 4px;
+}
+
+/* 소제목 */
+.section-subheading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0 4px;
+
+    /* 부드러운 통합 애니메이션 */
+    transition: color 2s ease, transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* hover 효과 */
+.section-subheading:hover {
+    color: #6A5ACD;
+    transition: color 0.25s ease;
+    transform: translateX(5px);
+}

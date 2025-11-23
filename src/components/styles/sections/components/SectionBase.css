@@ -2,7 +2,7 @@
 
 /* 섹션 기본 */
 .section {
-    max-width: 880px;
+    max-width: 1000px;
     margin: 25px 16px;
     padding: 32px;
     border: 1px solid #e5e5e7;
@@ -10,8 +10,8 @@
     background: #fff;
 }
 
-/* 넓은 화면 중앙 정렬  (880+16*2 = 912)*/
-@media (min-width: 912px) {
+/* 넓은 화면 중앙 정렬  (1000+16*2 = 1032)*/
+@media (min-width: 1032px) {
     .section {
         margin: 25px auto;
     }

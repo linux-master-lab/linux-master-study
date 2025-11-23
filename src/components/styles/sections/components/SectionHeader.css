@@ -24,5 +24,5 @@
 .section-header-title:hover {
     color: #6A5ACD;
     transition: color 0.25s ease;
-    transform: translateX(10px);
+    transform: translateX(5px);
 }

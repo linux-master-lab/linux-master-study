@@ -6,6 +6,7 @@
 }
 
 .section-list li {
+    text-align: left;
     margin-bottom: 0;
     font-size: 17px;
     line-height: 1.6;
@@ -18,5 +19,6 @@
 /* hover */
 .section-list li:hover {
     color: #6A5ACD;
-    transform: translateX(10px);
+    transition: color 0.25s ease;
+    transform: translateX(5px);
 }
