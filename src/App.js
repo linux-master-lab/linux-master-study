@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Sections from './components/pages/sections/Sections';
+import SectionList1 from './components/pages/sections1/SectionList1';
+import SectionList2 from './components/pages/sections2/SectionList2';
 
 function App() {
     return (
@@ -11,7 +12,10 @@ function App() {
                     {/* <Route path="/" element={<Sections />}/> */}
 
                     {/* 리눅스 웹 */}
-                    <Route path="/liunx-web" element={<Sections />}/>
+                    <Route path="/liunx-list1" element={<SectionList1 />}/>
+
+                    {/* 리눅스 웹 */}
+                    <Route path="/liunx-list2" element={<SectionList2 />}/>
                 </Routes>
             </BrowserRouter>
         </div>
