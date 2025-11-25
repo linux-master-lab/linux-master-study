@@ -78,10 +78,10 @@ export function Section5() {
             {/* 내용 */}
             <SectionBlock title="내용">
                 <ul className="section-list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>파일 시스템은 운영체제가 파일을 시스템의 디스크 파티션상에 구성하는 방식이다.</li>
+                    <li>일정한 규칙을 가지고 파일을 저장하도록 규칙 방식을 제시한다.</li>
+                    <li>파티션에 파일 시스템이 없으면, 파일 시스템 생성을 거쳐야 사용이 가능하다.</li>
+                    <li>리눅스는 고유의 파일 시스템뿐만 아니라 다양한 파일 시스템을 지원하고 있다.</li>
                 </ul>
             </SectionBlock>
 
@@ -91,10 +91,10 @@ export function Section5() {
             {/* 내용 */}
             <SectionBlock title="내용">
                 <ul className="section-list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>여러 개의 하드디스크를 합쳐서 사용하는 기술로 한 개의 파일 시스템을 사용한다.</li>
+                    <li>작은 용량의 하드디스크 여러 개를 큰 용량의 하나의 하드디스크처럼 사용한다.</li>
+                    <li>서버를 운영하면서 대용량의 별도 저장 공간이 필요할 때 활용된다.</li>
+                    <li>다수 개의 디스크를 묶어서 사용함으로써 파티션의 크기를 줄이거나 늘릴 수 있다.</li>
                 </ul>
             </SectionBlock>
 
@@ -104,13 +104,13 @@ export function Section5() {
             {/* 내용 */}
             <SectionBlock title="내용">
                 <ul className="section-list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>RAID는 복수 배열 독립 디스크의 약자이다.</li>
+                    <li>여러 개의 물리적 디스크를 하나의 논리적 디스크로 인식하여 작동하게 하는 기술이다.</li>
+                    <li>여러 개의 하드디스크에 일부 중복된 데이터를 나눠서 저장하는 기술이다.</li>
+                    <li>RAID종류는 하드웨어 RAID와 소프트웨어 RAID로 나뉜다.</li>
+                    <li>데이터를 저장하는 다양한 방법이 존재하며 이 방법들을 레벨이라 한다.</li>
+                    <li>레벨에 따라 저장 장치의 신뢰성을 높이거나 전체적인 성능을 향상시키는 다양한 목적을 만족시킨다.</li>
+                    <li>각 레벨의 정점을 합친 RAID 구성으로는 대표적으로 RAID 0+1과 RAID 1+0이 있다.</li>
                 </ul>
             </SectionBlock>
 
@@ -120,22 +120,18 @@ export function Section5() {
             {/* 내용 */}
             <SectionBlock title="내용">
                 <ul className="section-list">
-                    <li></li>
-                    <li></li>
+                    <li>fdisk는 파티션 테이블을 관리하는 명령으로 리눅스의 디스크 파티션을 생성, 수정, 삭제 할 수 있는 일종의 유틸리티이다.</li>
                 </ul>
-            </SectionBlock>
 
-            {/* 부제목 */}
-            <h2 className="section-subtitle">디스크와 장치명</h2>
-
-            {/* 내용 */}
-            <SectionBlock title="내용">
-                <ul className="section-list">
-                    <li></li>
-                    <li></li>
+                {/* fdisk 명령어 */}
+                <ul className="section-info-list">
+                    <li className="section-info-item">
+                        <span className="section-info-name">fdisk 명령어</span>
+                        <span className="section-info-desc">a, l, n, t, w, p, q</span>
+                    </li>
                 </ul>
-            </SectionBlock>
 
+            </SectionBlock>
         </SectionTemplate>
     );
 }
