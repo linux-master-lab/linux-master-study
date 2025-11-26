@@ -12,13 +12,13 @@
     line-height: 1.6;
     color: #555;
     padding: 15px 0;
-    border-bottom: 1px solid #eee;
-    transition: color 0.25s ease, transform 0.25s ease;
+    border-bottom: 3px solid #eee;
+    transition: color 0.5s ease, transform 0.5s ease;
 }
 
 /* hover */
 .section-list li:hover {
     color: #6A5ACD;
-    transition: color 0.25s ease;
+    transition: color 0.5s ease, transform 0.5s ease;
     transform: translateX(5px);
 }

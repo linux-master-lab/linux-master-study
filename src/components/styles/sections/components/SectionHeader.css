@@ -4,7 +4,7 @@
 .section-header {
     width: 100%;
     padding: 20px 0 12px;
-    border-bottom: 3px solid #6A5ACD;
+    border-bottom: 4px solid #6A5ACD;
     margin-bottom: 20px;
 }
 
@@ -23,6 +23,6 @@
 /* hover 효과 */
 .section-header-title:hover {
     color: #6A5ACD;
-    transition: color 0.25s ease;
+    transition: color 0.50s ease, transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
     transform: translateX(5px);
 }

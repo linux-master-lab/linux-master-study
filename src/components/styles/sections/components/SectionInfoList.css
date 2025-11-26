@@ -13,11 +13,13 @@
     padding: 15px 0;
     border-bottom: 1px solid #eee;
     align-items: center;
-    transition: color 0.25s ease, transform 0.25s ease;
+    border-bottom: 3px solid #eee;
+    transition: color 0.5s ease, transform 0.5s ease;
 }
 
 /* hover 효과 */
 .section-info-item:hover {
+    transition: color 0.5s ease, transform 0.5s ease;
     color: #6A5ACD;
     transform: translateX(5px);
 }
@@ -29,7 +31,6 @@
     white-space: normal;
     word-break: keep-all;       /* 한국어 제외, 영문은 단어 단위 */
     overflow-wrap: break-word;
-
 
     min-width: 20%;
     font-weight: bold;
