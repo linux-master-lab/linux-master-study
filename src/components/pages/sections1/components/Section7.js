@@ -1,11 +1,11 @@
-// Section 7. 사용자 생성 및 계정 관리
+// Section 7. 리눅스 사용자 생성 및 계정 관리
 import {SectionTemplate} from "../../../layout/sections/SectionTemplate";
 import {SectionBlock} from "../../../layout/sections/SectionBlock";
 import "../../../styles/sections/Sections.css";
 
 export function Section7() {
     return (
-        <SectionTemplate title="사용자 생성 및 계정 관리">
+        <SectionTemplate title="리눅스 사용자 생성 및 계정 관리">
 
             {/* 부제목 */}
             <h2 className="section-subtitle">리눅스 명령어</h2>

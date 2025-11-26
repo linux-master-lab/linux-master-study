@@ -1,11 +1,11 @@
-// Section 9. 기타 명령어
+// Section 9. 리눅스 기타 명령어
 import {SectionTemplate} from "../../../layout/sections/SectionTemplate";
 import {SectionBlock} from "../../../layout/sections/SectionBlock";
 import "../../../styles/sections/Sections.css";
 
 export function Section9() {
     return (
-        <SectionTemplate title="기타 명령어">
+        <SectionTemplate title="리눅스 기타 명령어">
 
             {/* 부제목 */}
             <h2 className="section-subtitle">네트워크 관련 명령어</h2>

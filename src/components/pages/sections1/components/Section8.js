@@ -1,11 +1,11 @@
-// Section 8. 디렉터리 및 파일
+// Section 8. 리눅스 디렉터리 및 파일
 import {SectionTemplate} from "../../../layout/sections/SectionTemplate";
 import {SectionBlock} from "../../../layout/sections/SectionBlock";
 import "../../../styles/sections/Sections.css";
 
 export function Section8() {
     return (
-        <SectionTemplate title="디렉터리 및 파일">
+        <SectionTemplate title="리눅스 디렉터리 및 파일">
 
             {/* 부제목 */}
             <h2 className="section-subtitle">디렉터리 관리 명령어</h2>
