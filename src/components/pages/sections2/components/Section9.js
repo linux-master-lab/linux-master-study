@@ -17,9 +17,7 @@ export function Section9() {
                         <span className="section-info-name">배포 업체</span>
                         <span className="section-info-desc">Debian, Ubuntu, Xandros, Linspire</span>
                     </li>
-                </ul>
 
-                <ul className="section-info-list">
                     <li className="section-info-item">
                         <span className="section-info-name">패키지 툴</span>
                         <span className="section-info-desc">dpkg, apt-get, optitude, Linspire</span>
@@ -34,9 +32,7 @@ export function Section9() {
                         <span className="section-info-name">배포 업체</span>
                         <span className="section-info-desc">Fedora, CentOS, RHEL, openSUSE, Mandirva</span>
                     </li>
-                </ul>
-
-                <ul className="section-info-list">
+                    
                     <li className="section-info-item">
                         <span className="section-info-name">패키지 툴</span>
                         <span className="section-info-desc">rpm, yum</span>

@@ -12,7 +12,7 @@
 /* 제목 */
 .section-title {
     position: relative;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 18px;
     margin: 0;
@@ -31,7 +31,7 @@
 
 /* 화살표 */
 .toggle-arrow {
-    font-size: 20px;
+    font-size: 15px;
     padding: 4px 6px;
 }
 
