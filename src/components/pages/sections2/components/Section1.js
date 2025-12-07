@@ -6,7 +6,7 @@ import image1_1 from "../image/section1/section1_1.png"
 
 export function Section1() {
     return (
-        <SectionTemplate title="리눅스 리눅스 권한 및 그룹 설정">
+        <SectionTemplate title="리눅스 권한 및 그룹 설정">
 
             {/* 부제목 */}
             <h2 className="section-subtitle">네트워크 관련 명령어</h2>
