@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/linux-master-study/static/css/main.a9c2def9.css",
-    "main.js": "/linux-master-study/static/js/main.e5a875b8.js",
+    "main.js": "/linux-master-study/static/js/main.cfed8bb6.js",
     "static/media/section1_1.png": "/linux-master-study/static/media/section1_1.d6ea9aa564940f752357.png",
     "index.html": "/linux-master-study/index.html",
     "main.a9c2def9.css.map": "/linux-master-study/static/css/main.a9c2def9.css.map",
-    "main.e5a875b8.js.map": "/linux-master-study/static/js/main.e5a875b8.js.map"
+    "main.cfed8bb6.js.map": "/linux-master-study/static/js/main.cfed8bb6.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c2def9.css",
-    "static/js/main.e5a875b8.js"
+    "static/js/main.cfed8bb6.js"
   ]
 }
