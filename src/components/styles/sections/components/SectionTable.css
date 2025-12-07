@@ -1,0 +1,69 @@
+/* SectionTable.css */
+
+/* 범용 테이블 wrapper */
+.table-wrapper {
+    width: 99%;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 2px solid #e5e5e5;
+}
+
+/* 기본 테이블 */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    color: #444;
+}
+
+/* 테이블 헤더 */
+.table thead th {
+    padding: 12px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #6A5ACD; /* 기본 강조색 */
+    border-bottom: 3px solid #eee;
+    background: #fafafa;
+    text-align: center;
+}
+
+/* 테이블 내용 */
+.table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
+    line-height: 1.6;
+    text-align: left;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+/* 번호 칼럼 */
+.col-num {
+    width: 30px;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+/* 타이틀 강조 */
+.col-title {
+    color: #6A5ACD; /* 기본 강조색 */
+    font-weight: bold;
+    /* width: 130px; */
+}
+
+/* 넓은 칼럼 */
+.col-wide {
+    color: #cd735a; /* 기본 강조색 */
+    font-weight: bold;
+    /* width: 130px; */
+}
+
+/* hover 효과 */
+.table tbody tr {
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.table tbody tr:hover {
+    color: #6A5ACD;
+    transform: translateX(5px);
+}

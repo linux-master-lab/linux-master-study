@@ -11,7 +11,7 @@ export function Section3() {
             <h2 className="section-subtitle">종류</h2>
 
             {/* 라이선스 종류 및 설명 */}
-            <SectionBlock title="라이선스 및 설명">
+            <SectionBlock title="라이선스 종류 및 설명">
                 <ul className="section-info-list">
 
                     <li className="section-info-item">
