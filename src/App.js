@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import SectionList1 from './components/pages/sections1/SectionList1';
 import SectionList2 from './components/pages/sections2/SectionList2';
 import SectionList3 from './components/pages/sections3/SectionList3';
+import SectionAll from './components/pages/SectionsAll/SectionsAll';
 import Home from './components/pages/home/Home';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
 
                     {/* 리눅스 웹 */}
                     <Route path="/liunx-list3" element={<SectionList3 />}/>
+
+                    {/* 리눅스 웹 */}
+                    <Route path="/liunx-list-all" element={<SectionAll />}/>
                 </Routes>
             </BrowserRouter>
         </div>
