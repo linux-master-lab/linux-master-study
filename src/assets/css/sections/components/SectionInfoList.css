@@ -1,0 +1,58 @@
+/* SectionInfoList.css */
+
+/* 범용 정보 리스트 */
+.section-info-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+/* 범용 항목 */
+.section-info-item {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    border-bottom: 3px solid #eee;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+/* hover 효과 */
+.section-info-item:hover {
+    transition: color 0.5s ease, transform 0.5s ease;
+    color: #6A5ACD;
+    transform: translateX(5px);
+}
+
+/* 항목명 */
+.section-info-name {
+    /* flex: 1; */
+    
+    white-space: normal;
+    word-break: keep-all;       /* 한국어 제외, 영문은 단어 단위 */
+    overflow-wrap: break-word;
+
+    min-width: 20%;
+    font-weight: bold;
+    color: #6A5ACD;
+    font-size: 12px;
+    line-height: 1.6;
+
+    /* 텍스트 왼쪽 정렬 */
+    text-align: left;
+}
+
+
+/* 설명 */
+.section-info-desc {
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+
+    white-space: normal;
+    word-break: keep-all;  /* 한국어 제외, 영문은 단어 단위 */
+    overflow-wrap: break-word;
+    
+    color: #444;
+    font-size: 12px;
+    line-height: 1.6;
+
+    margin-left: 2%;
+}
