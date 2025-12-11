@@ -34,7 +34,7 @@
     min-width: 20%;
     font-weight: bold;
     color: #6A5ACD;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6;
 
     /* 텍스트 왼쪽 정렬 */
@@ -51,7 +51,7 @@
     overflow-wrap: break-word;
     
     color: #444;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.6;
 
     margin-left: 2%;
